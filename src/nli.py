@@ -62,8 +62,8 @@ class NLIModel:
                 )
 
             inputs=self.tokenizer(
-                claims,
                 evidences,
+                claims,
                 padding=True,
                 truncation=True,
                 return_tensors="pt"
