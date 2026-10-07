@@ -16,7 +16,6 @@ The project uses the SciFact dataset for development and evaluation, while the l
 
 The main retrieval pipeline is:
 
-```text
 Scientific Claim
        |
        v
