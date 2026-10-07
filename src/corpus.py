@@ -18,3 +18,12 @@ def read_corpus(filename):
             }
 
     return corpus
+
+def read_claims(filename):
+    claims=[]
+
+    with open(filename,"r",encoding="utf-8") as file:
+        for line in file:
+            claims.append(json.loads(line))
+
+    return claims
